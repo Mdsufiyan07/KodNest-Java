@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "checknum",
+            "request": "launch",
+            "mainClass": "checknum",
+            "projectName": "KodNest-Java_cab94465"
+        },
+        {
+            "type": "java",
             "name": "WelcomeToJava",
             "request": "launch",
             "mainClass": "WelcomeToJava",
