@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "eligiblecheck",
+            "request": "launch",
+            "mainClass": "eligiblecheck",
+            "projectName": "KodNest-Java_cab94465"
+        },
+        {
+            "type": "java",
             "name": "checknum",
             "request": "launch",
             "mainClass": "checknum",
