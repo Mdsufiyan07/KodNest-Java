@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "pgm2",
+            "request": "launch",
+            "mainClass": "pgm2",
+            "projectName": "project_1cd6801"
+        },
+        {
+            "type": "java",
             "name": "eligiblecheck",
             "request": "launch",
             "mainClass": "eligiblecheck",
