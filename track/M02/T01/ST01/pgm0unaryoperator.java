@@ -1,4 +1,4 @@
-public class pgm0 {
+public class pgm0unaryoperator {
  public static void main(String[] args) {
      int a = 10;
      int res = a++ + a++ + ++a + a++ + ++a + a++ + a++;

@@ -1,4 +1,4 @@
-public class pgm6 {
+public class pgm6dowhile {
 public static void main(String[] args) {
     int i=0;
     do { 

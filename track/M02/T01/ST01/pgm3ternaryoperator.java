@@ -1,4 +1,4 @@
-public class pgm3 {
+public class pgm3ternaryoperator {
 public static void main(String[] args) {
     int a = 10;
     int b = 20;

@@ -1,4 +1,4 @@
-public class pgm5 {
+public class pgm5whileloop {
 public static void main(String[] args) {
     
     int i =0;

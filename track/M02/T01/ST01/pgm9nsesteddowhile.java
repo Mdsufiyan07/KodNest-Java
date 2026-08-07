@@ -1,4 +1,4 @@
-public class pgm9dowhile {
+public class pgm9nsesteddowhile {
 public static void main(String[] args) {
     int x =1;
     do{

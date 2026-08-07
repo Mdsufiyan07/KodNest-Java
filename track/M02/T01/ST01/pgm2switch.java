@@ -1,5 +1,5 @@
 import java.util.Scanner;
-public class pgm2 {
+public class pgm2switch {
  public static void main(String[] args) {
      Scanner scan = new Scanner (System.in);
 int n = scan.nextInt();
