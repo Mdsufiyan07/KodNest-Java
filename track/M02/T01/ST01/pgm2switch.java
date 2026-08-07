@@ -26,6 +26,6 @@ switch (n){
     break;
     default : System.err.println("Invalid");
     break;
-}
+        }
  }
 }
