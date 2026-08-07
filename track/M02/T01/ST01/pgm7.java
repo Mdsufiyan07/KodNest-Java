@@ -10,4 +10,7 @@ public class pgm7 {
   System.out.println();
  }
 }
+
+
+
 }
