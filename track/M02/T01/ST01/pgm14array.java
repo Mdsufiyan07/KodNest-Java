@@ -1,3 +1,5 @@
+import java.util.Scanner;
+
 public class pgm14array {
     public static void main(String[] args) {
 int []arr=new int [5];
@@ -15,5 +17,27 @@ arr[4]=50;
 
 int ax[] = {10,20,30,40};
 System.out.println(ax[0]+" "+ax[1]+" "+ax[2]+" "+ax[3]);
+
+Scanner s1 = new Scanner(System.in);
+int a[] = new int[5];
+
+System.out.println(a.length);
+System.err.println("Enter elements of array");
+
+for(int i=0;i<=a.length-1;i++)
+{
+    a[i]=s1.nextInt();
+}
+for(int i=0;i<=a.length-1;i++)
+{
+    System.out.println(a[i]);
+}
+for(int i:a)
+{
+    System.out.println(i);
+}
+
+
+
     }
 }
