@@ -41,5 +41,11 @@ for(int i:a)
 {
     System.out.println("elements are: "+i);//faster output from advanced for loop here assigning values from the array to the variable i not indexing here (no i++ no need) but only use here no use in any other cases
 }
+System.out.println(" ");
+
+for(int i=a.length-1;i>=0;i--){
+System.out.println("elements from the index value of "+i+" is "+a[i]);
+}
+
 }
 }
