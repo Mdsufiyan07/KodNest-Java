@@ -21,8 +21,8 @@ System.out.println(ax[0]+" "+ax[1]+" "+ax[2]+" "+ax[3]);
 Scanner s1 = new Scanner(System.in);
 int a[] = new int[5];
 
-System.out.println(a.length);
-System.err.println("Enter elements of array");
+System.out.println("Length if array is: "+a.length);
+System.err.println("Enter elements of array : ");
 
 for(int i=0;i<=a.length-1;i++)
 {
@@ -30,14 +30,16 @@ for(int i=0;i<=a.length-1;i++)
 }
 for(int i=0;i<=a.length-1;i++)
 {
-    System.out.println(a[i]);
+    System.out.println("elements from the index value of "+i+" is "+a[i]);
+
 }
+System.out.println(" ");
+
+
+System.out.println("Advanced for loop");
 for(int i:a)
 {
-    System.out.println(i);
+    System.out.println("elements are: "+i);//faster output from advanced for loop here assigning values from the array to the variable i not indexing here (no i++ no need) but only use here no use in any other cases
 }
-
-
-
-    }
+}
 }
