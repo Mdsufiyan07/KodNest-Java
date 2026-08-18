@@ -2,7 +2,9 @@ import java.util.Scanner;
 public class pgm15maxElement {
 public static void main(String[] args) {
     Scanner sc = new Scanner(System.in);
-    int a[]= new int[5];
+    System.out.println("Enter the size of array : ");
+    int size=sc.nextInt();
+    int a[]= new int[size];
     System.out.println("enter elements:  ");
     for(int i = 0 ; i<a.length; i++){
         a[i] = sc.nextInt();
