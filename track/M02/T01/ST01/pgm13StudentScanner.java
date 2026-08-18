@@ -16,18 +16,23 @@ System.out.println("Enter id");
 
     s1.run();
     s1.sleep();
-
+    s1.details();
 
 }
 
 }
 class Student{
-    int id;
-    String name;
-    double height;
+    int id = 5;
+    String name = "Sufiyan";
+    double height = 5.5;
 
     void run(){
         System.out.println("running");
+    }
+    void details(){
+        System.out.println("id   : "+id);
+        System.out.println("name : "+name);
+        System.out.println("height : "+height);
     }
 
     void sleep(){
