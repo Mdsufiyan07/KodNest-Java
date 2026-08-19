@@ -1,5 +1,5 @@
 import java.util.Scanner;
-public class pgm15MinMax {
+public class pgmMinMax {
     public static void main(String[] args) {
         
     

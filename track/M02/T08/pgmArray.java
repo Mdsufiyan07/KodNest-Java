@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class pgm14array {
+public class pgmArray {
     public static void main(String[] args) {
 
         System.out.println("array creation with values type 1 ");

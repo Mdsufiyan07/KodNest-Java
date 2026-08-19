@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class pgm19TwoDimensionalArray {
+public class pgm2Darray {
 public static void main(String[] args) {
    Scanner sc = new Scanner(System.in);
    int x,y;

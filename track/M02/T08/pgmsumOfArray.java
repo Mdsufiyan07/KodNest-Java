@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class pgm16summofarray {
+public class pgmsumOfArray{
 public static void main(String[] args) {
     Scanner sc = new Scanner(System.in);
     int a[]=new int[5];
